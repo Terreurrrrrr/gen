@@ -88,9 +88,10 @@ Merci d'utiliser notre générateur
   Mettre en pause la génération !
 </button>
     <p></p>
-<button id='save' onclick="var rows = document.getElementById('b').value.split('\n').length -  1; download(rows + ' NITRO UNCHECK.txt', ' + document.getElementById('b').value + ')" class="button">Télécharger les NITRO UNCHECK</button>
-    <p></p>
-<button onclick="stop(); document.getElementById('a').value = 'Merci d'utiliser notre générateur\n――――――――――――――――――――――――――――――――――――――\n[INFO] Générateur de NITRO UNCHECK\n[INFO] Les codes de NITRO UNCHECK seront ici\n―――――――――――――――――――――――――――――――――――――――\n'; document.getElementById('b').value = '';" class="button" id="clear">Clear Log</button>
+<button id='save' onclick="var rows = document.getElementById('b').value.split('\n').length -  1; download(rows + ' NITRO UNCHECK.txt', 'Générer par NITRO UNCHECK GEN\n\n' + document.getElementById('b').value + '\nGénérer par NITRO UNCHECK GEN)')" class="button">Télécharger les NITRO UNCHECK</button>
+
+	<p></p>
+<button onclick="stop(); document.getElementById('a').value = 'Merci d'utiliser notre générateur.\n\n―――――――――――――――――――――――――――――――――――――――\n[INFO] Générateur de NITRO UNCHECK\n[INFO] Les codes de NITRO UNCHECK seront ici\n―――――――――――――――――――――――――――――――――――――――\n\n'; document.getElementById('b').value = '';" class="button" id="clear">Supprimer les NITRO UNCHECK</button>
 <textarea style="display: none;" id="b" rows="11" cols="100" readonly>
 </textarea>
 	<script src="main.js"></script>
